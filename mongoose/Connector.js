@@ -1,7 +1,7 @@
 // http://blog.modulus.io/getting-started-with-mongoose
 // mongoose 4.3.x
 var mongoose = require('mongoose');
-require('mongoose-multitenant');
+require('mongoose-multitenancy');
 var Constants = require('../utils/Constants.js');
 var FooRepository = require('../mongo-repository/FooRepository.js');
 /* 
