@@ -9,6 +9,7 @@ var index = require('./routes/index');
 var users = require('./routes/users');
 
 var Constants = require('./utils/Constants.js');
+require('./mongoose/Connector.js');
 
 var app = express();
 
