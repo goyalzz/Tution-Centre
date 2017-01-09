@@ -1,7 +1,7 @@
 // Reference Url: https://www.npmjs.com/package/mongoose-class-wrapper
 // http://mongoosejs.com/docs/schematypes.html
 var mongoose = require('mongoose');
-require('mongoose-multitenancy');
+require('mongoose-multitenant');
 
 var fooSchema = new mongoose.Schema({
   data: {type: mongoose.Schema.Types.Mixed}
