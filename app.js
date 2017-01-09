@@ -8,7 +8,14 @@ var bodyParser = require('body-parser');
 var index = require('./routes/index');
 var users = require('./routes/users');
 
+var Constants = require('./utils/Constants.js');
+
 var app = express();
+
+// Listen Port
+app.listen(Constants.PORT, function () {
+  console.log("Express has started on port " + Constants.PORT);
+});
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
